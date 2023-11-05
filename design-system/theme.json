@@ -1,0 +1,126 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "black",
+          "color": "#000000",
+          "name": "Black"
+        },
+        {
+          "slug": "dark",
+          "color": "#222222",
+          "name": "Dark"
+        },
+        {
+          "slug": "yellow",
+          "color": "#EDE236",
+          "name": "Yellow"
+        },
+        {
+          "slug": "white",
+          "color": "#FFFFFF",
+          "name": "White"
+        },
+        {
+          "slug": "ash",
+          "color": "#F2F2F2",
+          "name": "Ash"
+        },
+        {
+          "slug": "maroon",
+          "color": "#913D2E",
+          "name": "Maroon"
+        }
+      ]
+    },
+    "typography": {
+      "dropCap": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Roboto",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300",
+              "src": [
+                "file:./assets/fonts/roboto/Roboto-Light.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Roboto",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/roboto/Roboto-Regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Roboto",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/roboto/Roboto-Medium.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Roboto",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/roboto/Roboto-SemiBold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Roboto",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/roboto/Roboto-Bold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Roboto",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/roboto/Roboto-ExtraBold.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Roboto\", sans-serif",
+          "name": "Roboto",
+          "slug": "roboto"
+        }
+      ]
+    },
+    "styles": {
+      "components": {
+        "h1": {
+          "fontSize": "48px",
+          "lineHeight": "60px"
+        },
+        "h2": {
+          "fontSize": "40px",
+          "lineHeight": "50px"
+        },
+        "h3": {
+          "fontSize": "36px",
+          "lineHeight": "40px"
+        },
+        "p": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        }
+      }
+    }
+  }
+}

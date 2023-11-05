@@ -1,0 +1,84 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .team-members-editor {
+	.members {
+		display: block;
+		.members-item {
+			border-bottom: 2px solid;
+			padding-bottom: 30px;
+			padding-top: 30px;
+			position: relative;
+			.members-item-image {
+				flex: 0 0 100px;
+				max-width: 100px;
+				img {
+					width: 100px;
+					height: 100px;
+					border-radius: 50%;
+					object-fit: cover;
+				}
+			}
+			.delete-member {
+				position: absolute;
+				top: 30px;
+				right: 0;
+				background: #9b0000;
+				border: 1px solid #999;
+				padding: 5px 20px;
+				color: #fff;
+				opacity: 0.4;
+				cursor: pointer;
+				&:hover, &:focus {
+					opacity: 1;
+				}
+			}
+			.image-preview {
+				position: relative;
+				.remove-image {
+					display: block;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					margin: auto;
+					background: #9b0000;
+					border: 1px solid #999;
+					padding: 5px 20px;
+					color: #fff;
+					opacity: 0.4;
+					cursor: pointer;
+					&:hover, &:focus {
+						opacity: 1;
+					}
+				}
+			}
+			.select-image {
+				background: transparent;
+				color: #090092;
+				border: 1px solid #090092;
+				padding: 8px;
+				cursor: pointer;
+				display: block;
+				width: 100%;
+				&:hover, &:focus {
+					background: #dfe0ff;
+				}
+			}
+		}
+	}
+	.add-member {
+		background: #090092;
+		color: #FFFFFF;
+		padding: 8px 20px;
+		cursor: pointer;
+		display: block;
+		margin-top: 30px;
+		&:hover, &:focus {
+			background: #050055;
+		}
+	}
+ }

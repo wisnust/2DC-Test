@@ -1,0 +1,118 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/team-members/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+* {
+  box-sizing: border-box;
+}
+
+.team-members {
+  font-family: "Roboto", sans-serif;
+}
+.team-members h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0 0 1rem;
+}
+.team-members h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0 0 1rem;
+}
+.team-members h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0 0 1rem;
+}
+.team-members p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 1rem;
+}
+
+.btn-outline {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #212B36;
+  padding: 13px 20px;
+  border: 1px solid #D4D4D4;
+  border-radius: 8px;
+  margin-top: 18px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+.btn-outline:hover, .btn-outline.active {
+  background-color: #EDE236;
+  border-color: #EDE236;
+}
+
+.team-members-heading {
+  margin-bottom: 64px;
+}
+.team-members-heading .section-title {
+  color: #913D2E;
+  font-size: 20px;
+}
+.team-members-heading h2 {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.team-members-heading p {
+  margin-bottom: 12px;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.members-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+.members-item .members-item-image {
+  flex: 0 0 160px;
+  max-width: 160px;
+}
+.members-item .members-item-image img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.members-item .members-item-content {
+  flex: 1;
+}
+.members-item .members-item-content h3 {
+  margin-bottom: 18px;
+}
+.members-item .members-item-content .job-title {
+  font-weight: 500;
+}
+.members-item .members-item-content .details-content {
+  border: 2px solid #D4D4D4;
+  border-radius: 15px;
+  position: relative;
+  margin-left: -194px;
+  margin-top: 32px;
+  padding: 40px 70px;
+  width: calc(200% + 448px);
+}
+.members-item:nth-of-type(even) .members-item-content .details-content {
+  transform: translateX(calc(-50% - 30px));
+}
+
+/*# sourceMappingURL=style-index.css.map*/

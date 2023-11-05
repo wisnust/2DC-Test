@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/team-members",
+	"version": "0.1.0",
+	"title": "Team Members",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": true,
+		"color": {},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "team-members",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"sectionTitle": {
+			"type": "string",
+			"default": "Our Board"
+		},
+		"sectionHeading": {
+			"type": "string",
+			"default": "Our current Board Directors are:"
+		},
+		"sectionDescription": {
+			"type": "string",
+			"default": "The Board operates in accordance with a Board Charter and Rule Book which empowers them to make decisions concerning the strategic direction of the corporation."
+		},
+    "list": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string",
+						"default": ""
+					},
+					"jobTitle": {
+						"type": "string",
+						"default": ""
+					},
+					"details": {
+						"type": "string",
+						"default": ""
+					},
+					"image": {
+						"type": "object",
+						"properties": {
+							"url": {
+								"type": "string",
+								"default": ""
+							},
+							"alt": {
+								"type": "string",
+								"default": ""
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
