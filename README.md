@@ -9,3 +9,11 @@ Files. What would you do?
 3. **Disable Plugins/Themes:** Disable one of the plugins was causing the issue.
 4. **Check for Updates:** See if there are any updates available for plugins/themes.
 5. **Investigate the Problem:** If a problem is found with a theme/plugin, focus on the problem and fix it
+
+
+## Block Team Members Screenshot
+### Editor
+![image](https://github.com/wisnust/2DC-Test/assets/12541373/18c93bd4-2396-4782-ab5a-8e295a3519e4)
+
+### Frontend
+![team-member-frontend](https://github.com/wisnust/2DC-Test/assets/12541373/dfc69a6a-24eb-4a16-b68a-5ec6e2772eab)
